@@ -1,0 +1,72 @@
+#Big-Container{
+    border: 1px black solid; 
+    height: 900px;
+    width: 1520px;
+ background-color: rgb(0, 0, 0);
+
+}
+.item1{grid-area: h;}
+.item2{grid-area: bs;}
+.item3{grid-area: t1;}
+.item4{grid-area: logo;}
+.item5{grid-area: t2; }
+.item6{grid-area: t3; }
+.item7{grid-area: t4; }
+.item8{grid-area: t5; }
+.top{
+    border: 1px black solid;
+    width: 1500px;
+    height: 200px;
+    margin: 5px auto;
+    display: grid;
+    font-size: 33px;
+    text-align: left;
+    grid-template-areas:
+    'h h h h h h h h h h h h h h'
+    'h h h h h h h h h h h h h h'
+    'h h h h h h h h h h h h h h'
+    'h h h h h h h h h h h h h h'
+    'bs bs bs bs bs bs bs bs bs bs t1 t2 t3 t4'
+    ;
+    grid-gap: 5px;
+ 
+    background-color: #a0a0a0;
+}
+
+.item9{grid-area:Pp;}
+/* This is the Name*/
+.item10{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 39px;
+    grid-area:h1;
+}
+/* This is the Title*/
+.item11{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 39px;
+    grid-area: h2;}
+.item12{grid-area: bs;}
+.item13{grid-area: bs1;}
+.item14{grid-area: bs2;}
+.bottom{
+
+    border: 1px black solid;
+    width: 1500px;
+    height: 679px;
+    align-items: center;
+    text-align: center;
+    margin: 5px auto;
+
+    display:grid;
+    grid-template-areas: 
+    'bs1 bs1'
+    'Pp Pp'
+    'bs2 bs2'
+    'h1 h1'
+    'h2 h2'
+    'bs bs'
+    ;
+    background-color: #a0a0a0;
+}
+
+
