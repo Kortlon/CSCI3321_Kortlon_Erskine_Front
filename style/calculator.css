@@ -1,0 +1,91 @@
+#container{
+    display:grid;
+    width: 300px;
+    margin:auto;
+    background-color: #000000;
+    border-radius:5px;
+    padding: 10px;
+    grid-gap: 5px;
+    grid-template-areas: 
+    'result result result result'
+    'addition subtraction multiplication division'
+    'digit7 digit8 digit9 equal'
+    'digit4 digit5 digit6 equal'
+    'digit1 digit2 digit3 equal'
+    'clear clear digit0 equal';
+}
+
+#display{
+    border-radius: 5px;
+    height: 45px;
+    text-align:right;
+    background-color: #ffffff;
+    line-height: 45px;
+    grid-area: result;
+}
+.key{
+    background-color: #9e9e9e;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color: rgb(209, 0, 0);
+}
+
+.empty{
+    grid-area: clear;
+}
+.plus{
+    grid-area: addition;
+}
+.minus{
+    grid-area: subtraction;
+}
+.multiply{
+    grid-area: multiplication;
+}
+.divide{
+    grid-area: division;
+}
+.digit-0{
+    grid-area: digit0;
+}
+.digit-9{
+    grid-area: digit9;
+}
+.digit-8{
+    grid-area: digit8;
+}
+.digit-7{
+    grid-area: digit7;
+}
+.digit-6{
+    grid-area: digit6;
+}
+.digit-5{
+    grid-area: digit5;
+}
+.digit-4{
+    grid-area: digit4;
+}
+.digit-3{
+    grid-area: digit3;
+}
+.digit-2{
+    grid-area: digit2;
+}
+.digit-1{
+    grid-area: digit1;
+}
+.equal-key{
+    grid-area: equal;
+    background-color: rgb(0, 194, 32);
+    height: 216px;
+    text-align: center;
+    line-height: 216px;
+    border-radius: 5px;
+    font-size: 40px;
+    
+}
