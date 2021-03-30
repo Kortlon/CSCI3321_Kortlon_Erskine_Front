@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/TicTacToe.css" >
+    <script src="/scripts/TicTacToe.js">
+    currentPlayerWon();
+    </script>     
+    <title>Tic Tac Toe</title>
+     
+</head>
+
+<body>
+    <h1 class = exp>Explanation of Tic Tac Toe
+        <ul>
+            <li>you are X, your friend  is O.
+                 Players take turns putting their marks in empty squares.</li>
+            <li>The first player to get 3 of her marks in a row (up, down, across, or diagonally) 
+                is the winner.</li>
+            <li>Press Play to Begin!!!!!!</li>
+        </ul>
+    </h1>
+    <div id = "container" >
+        <div class = "key area1" onclick="placeMarker('area1'); currentPlayerWon();" >1</div>
+        <div class = "key area2" onclick="placeMarker('area2'); currentPlayerWon();" >2</div>
+        <div class = "key area3" onclick="placeMarker('area3'); currentPlayerWon();" >3</div>
+        <div class = "key area4" onclick="placeMarker('area4'); currentPlayerWon();" >4</div>
+        <div class = "key area5" onclick="placeMarker('area5'); currentPlayerWon();" >5</div>
+        <div class = "key area6" onclick="placeMarker('area6'); currentPlayerWon();" >6</div>
+        <div class = "key area7" onclick="placeMarker('area7'); currentPlayerWon();" >7</div>
+        <div class = "key area8" onclick="placeMarker('area8'); currentPlayerWon();" >8</div>
+        <div class = "key area9" onclick="placeMarker('area9'); currentPlayerWon();" >9</div>
+        
+    </div>
+
+    <div class = "player" >Press Start to Begin</div>
+    <button id = "button" onclick="buttonclick()" >Start</button> 
+    <button id = "reset" onclick="buttonreset()" >Restart</button> 
+  
+</body>
+</html>
