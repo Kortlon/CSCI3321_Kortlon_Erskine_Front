@@ -1,0 +1,59 @@
+#container{
+display: grid;
+width: 345px;
+background-color: rgba(0, 0, 0, 0);
+margin: auto;
+height: 350px;
+padding: 3px;
+
+grid-template-areas: 
+'area1 area2 area3'
+'area4 area5 area6'
+'area7 area8 area9'
+;
+
+}
+.key{
+width: 113px;
+height: 115px;
+background-color: rgb(230, 109, 109);
+font-size: 35px;
+text-align: center;
+line-height: 100px;
+cursor: pointer;
+
+}
+.player{
+    text-align: center;
+    font-size: 35px;
+}
+.exp{
+font-size: 20px;
+text-align: center;
+}
+
+#button{
+    color: rgb(0, 172, 23);
+    width: 200px;
+    height: 55px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+}
+#reset{
+    color: rgb(172, 0, 0);
+    width: 200px;
+    height: 55px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    visibility: hidden;
+    
+}
+
